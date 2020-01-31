@@ -1,0 +1,13 @@
+- hosts: localhost
+  
+  tasks:
+   - copy:
+         src: "/root/Desktop/alert.png"
+         dest: "/alert.png"
+   - twilio:
+         msg: "the system is compromised"
+         account_sid: ACfe7a48ea2d2556e69d349bf29640a539
+         auth_token: e1bbd69b19bbc9ea3479b4b61355d121
+         from_number: +13343397594
+         to_number:
+           - +917870851680
