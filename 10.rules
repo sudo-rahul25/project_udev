@@ -1,1 +1,1 @@
-ACTION=="add"	SUBSYSTEM=="usb"		RUN="/usr/bin/python36 /root/Desktop/pythoncode/securityloginphoto.py"
+ACTION=="add"	SUBSYSTEM=="usb"	RUN="/usr/bin/python36 /root/Desktop/pythoncode/securityloginphoto.py"
